@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './home/home.component';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +13,7 @@ import { HomeComponent } from './components/home/home.component';
         alt="logo"
         aria-hidden="true"
       />
+      <h1>Homes</h1>
     </header>
     <section class="content">
       <app-home></app-home>
