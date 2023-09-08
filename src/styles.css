@@ -25,3 +25,11 @@ h1 {
   margin-left: 10px;
   vertical-align: middle;
 }
+
+button.primary {
+  padding: 10px;
+  border: solid 1px #605DC8;
+  background: #605DC8;
+  color: white;
+  border-radius: 8px;
+}
