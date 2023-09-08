@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
   imports: [HomeComponent, RouterModule],
   template: `<main>
     <header class="brand-name">
-      <a routerLink="">
+      <a [routerLink]="'/'">
         <img
           class="brand-logo"
           src="/assets/logo.svg"
